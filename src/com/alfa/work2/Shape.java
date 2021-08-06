@@ -1,7 +1,7 @@
 package com.alfa.work2;
 
 public class Shape {
-    private final String color;
+    private String color;
 
     public Shape(String color) {
         this.color = color;

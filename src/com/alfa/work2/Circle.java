@@ -1,7 +1,7 @@
 package com.alfa.work2;
 
 public class Circle extends Shape{
-    private final int radius;
+    private int radius;
     public Circle(String color, int radius) {
         super(color);
         this.radius = radius;

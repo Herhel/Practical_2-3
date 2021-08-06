@@ -2,7 +2,6 @@ package com.alfa.work2;
 
 import java.util.Arrays;
 import java.util.Objects;
-import java.util.Scanner;
 
 public class Runner {
     private Shape[] base;
@@ -30,7 +29,7 @@ public class Runner {
     public void printShapes(Shape[] shapes) {
         if (shapes != null && shapes.length > 0) {
             for (Shape shape : shapes) {
-                System.out.printf(shape.toString() + ", area=%.2f \n", shape.calcArea());
+                System.out.printf(shape + ", area=%.2f \n", shape.calcArea());
             }
         } else {
             System.out.println("Нет элементов для вывода");

@@ -1,8 +1,8 @@
 package com.alfa.work2;
 
 public class Rectangle extends Shape{
-    private final int width;
-    private final int height;
+    private int width;
+    private int height;
     public Rectangle(String color, int width, int height) {
         super(color);
         this.width = width;

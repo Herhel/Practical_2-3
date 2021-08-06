@@ -1,9 +1,9 @@
 package com.alfa.work2;
 
 public class Triangle extends Shape{
-    private final int a;
-    private final int b;
-    private final int c;
+    private int a;
+    private int b;
+    private int c;
 
     public Triangle(String color, int a, int b, int c) {
         super(color);
@@ -31,7 +31,7 @@ public class Triangle extends Shape{
 
     @Override
     public double calcArea() {
-        int p = a + b + c;
+        int p = (a + b + c) / 2;
         return Math.sqrt(p*(p-a)*(p-b)*(p-c));
     }
 }
